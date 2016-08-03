@@ -754,10 +754,10 @@ function user_info($data, $array_field_config, $custom_fields, $types, $data_que
         $xtpl->parse('main.tab_edit_question');
 	}
 	
-	if (in_array('avatar', $types)) {
+	/*if (in_array('avatar', $types)) {
 		$xtpl->parse('main.edit_avatar');
         $xtpl->parse('main.tab_edit_avatar');
-	}
+	} */
 	
 	if (in_array('safemode', $types)) {
 		if ($pass_empty) {
